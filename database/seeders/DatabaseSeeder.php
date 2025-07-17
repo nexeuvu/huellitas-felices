@@ -121,7 +121,7 @@ class DatabaseSeeder extends Seeder
         // Crear el usuario administrador inicial
         User::factory()->create([
             'name' => 'Administrador Veterinaria',
-            'email' => 'huellitas@gmail.com',
+            'email' => 'huellita@gmail.com',
             'password' => bcrypt('admin123')
         ])->assignRole('Administrador');
     }
